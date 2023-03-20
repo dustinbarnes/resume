@@ -18,6 +18,6 @@ flowchart LR
   magic-->html(HTML)
 ```
 
-> <sub>:diamond_shape_with_a_dot_inside: Tip: Check out the source code of the `README.md` file, that graphic is generated on the fly!</sub>
+> :diamond_shape_with_a_dot_inside: Tip: Check out the source code of the `README.md` file, that graphic is generated on the fly!
 
 
