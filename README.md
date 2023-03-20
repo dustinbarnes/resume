@@ -18,6 +18,6 @@ flowchart LR
   magic-->html(HTML)
 ```
 
-> :diamond_shape_with_a_dot_inside: Tip: Check out the source code of the `README.md` file, that graphic is generated on the fly!
+<div style="border: 1px dashed #eaeaea;margin-left: 25px;font-size: 0.75em;padding: 7px">:diamond_shape_with_a_dot_inside: Tip: Check out the source code of this `README.md` file, that graphic is generated on the fly!</div>
 
 
