@@ -1,0 +1,257 @@
+contact:
+  name: Dustin Barnes
+  email: dustin.barnes@gmail.com
+  headline: Experienced SDLC Expert
+  summary: |
+      A 20+ year Software Development veteran with deep and broad experience
+      in software development, cloud adoption, and CI/CD process. Multiple 
+      successful migrations to the cloud (AWS and GCP), and onto container
+      technologies like Kubernetes.
+
+  location:
+    countryCode: US
+    state: WA
+    city: Seattle
+
+  profiles: 
+    - network: LinkedIn
+      username: dustinbarnes
+      url: https://www.linkedin.com/in/dustinbarnes/
+    - network: GitHub
+      username: dustinbarnes
+      url: https://github.com/dustinbarnes
+
+skills:
+  - name: Java 8+
+    level: 10
+  - name: CI/CD
+    level: 10
+  - name: Kanban
+    level: 10
+  - name: Test Automation
+    level: 10
+  - name: Agile/Scrum
+    level: 9
+  - name: Linux
+    level: 9
+  - name: NodeJS
+    level: 8
+  - name: Presentations
+    level: 8
+  - name: GitLab
+    level: 8
+  - name: HTML/CSS/JS
+    level: 8
+  - name: GCP
+    level: 7
+  - name: AWS
+    level: 6
+  - name: Typescript
+    level: 5
+
+work:
+  - name: LivePerson
+    position: Senior SDE (Developer Tools)
+    startDate: 2022-02-01
+    endDate: 2023-03-31
+    summary: |
+        Original member of team tasked to level-up the CI/CD practice across
+        the entire organization.
+    highlights:
+      - Ran multiple PoCs for unified CI/CD tooling, settling on GitLab
+      - Wrote automation tooling to migrate repositories from GitHub to GitLab
+      - Migrated from TeamCity/Jenkins to GitLab CI/CD
+      - Focused on Developer Experience, and providing a developer platform
+      - Unified story for code, testing, deployment, monitoring, logging, 
+        metrics, security, and maintenance
+    tech:
+      - GitHub
+      - GitLab
+      - K8s
+      - Docker
+      - confd
+      - Node
+      - Java 8/11/17
+      - Maven
+      - GCP
+      - ELK stack
+      - ServiceNow
+  - name: LivePerson
+    position: Senior SDE (Product)
+    startDate: 2019-04-30
+    endDate: 2022-02-01
+    summary: |
+        Leveled-up the CI/CD practice while tackling COVID-related 
+        scaling issues.
+    highlights:
+      - Led transition to horizontal scaling for primary backend product
+      - Java8, 10+ years old code base, shard-based solution with nginx routing
+      - Drove a feature-flag system to manage releases
+      - Led migration from Puppet+VMs to K8s
+      - Drove many efforts to adopt SDLC and CI/CD best practices
+    tech:
+      - Java 8/11/17
+      - Maven
+      - Puppet
+      - Virtual Machines
+      - K8s
+      - TeamCity
+      - Jenkins
+      - Node
+      - CI/CD
+      - ELK stack
+      - ServiceNow
+      - Spring
+  - name: Dev9
+    position: Solutions Architect
+    startDate: 2013-11-01
+    endDate: 2019-04-30
+    summary: Consulted at many large software firms in the Seattle area
+    highlights:
+      - GCP Certified Solutions Architect (now expired)
+      - AWS Associate Solutions Architect (now expired)
+      - Consulted on CI/CD best practices
+      - Developed a Continuous Delivery Maturity Model as client rubric
+      - Lift-and-shift from datacenter to GCP/Kubernetes
+      - Lift-and-shift from datacenter to AWS
+      - Present to, and collaborate with, C-level and VP-level decision makers
+      - Interview, mentor, and train new leads and solutions architects
+      - Used in strike team for urgent, complicated technical issues
+    tech:
+      - GCP
+      - AWS
+      - Graphs-as-code
+      - Java 8
+      - Node
+      - K8s
+      - CI/CD
+      - Spring
+      - Spring Boot
+  - name: Dev9
+    position: Lead Developer
+    startDate: 2012-11
+    endDate: 2013-11
+    summary: Consulting at a school-based social networking company
+    highlights:
+      - Designed and implemented a realtime Change Data Capture (CDC) system
+      - Ran PoC for Neo4j (Graph Database), to reduce RDBMS burden
+      - Wrote native Neo4j plugins
+      - 750m nodes, 3b edges
+      - Extensive Garbage Collection (GC) optimization, JVM optimization,
+        OS tuning, and workload optimization
+    tech:
+      - Neo4j
+      - Java 8
+      - PostgreSQL
+  - name: Dev9
+    position: Senior SDE
+    startDate: 2012-06
+    endDate: 2012-11
+    summary: Consulting at a video game company in Redmond, WA
+    highlights:
+      - IC to account services and sign-on services
+      - Drove plan to stress/load-test service prior to launch
+      - Used Gatling locally to load test up to 1000s of users
+      - Use Neustar to load test over 1 million users across geos
+      - Launched on-time, under-budget, no issues on Christmas Day
+    tech:
+      - Java 8
+      - Gatling
+      - Cassandra
+      - TeamCity
+  - name: Optify
+    position: Senior SDE
+    startDate: 2011-03
+    endDate: 2012-06
+    summary: Senior SDE at large-scale marketing automation firm
+    highlights:
+      - Sharded PostgreSQL database with a transparent custom JPA driver
+      - Integrated Recurly for subscription payments with easy PCI compliance
+      - Deployed ElasticSearch to offload RDBMS burden
+      - Championed CI/CD best practices such as build servers and binary repositories
+    tech:
+      - Java 8
+      - PostgreSQL
+      - Jenkins
+      - AWS
+  - name: All Star Directories
+    position: Developer III
+    startDate: 2006-07
+    endDate: 2011-03
+    summary: |
+      Managed platform transition from PHP to Java, introducing CI
+      before it was cool
+    highlights:
+      - SME for legacy app, Lead on new app
+      - Interviewed, managed, and mentored other developers
+    tech:
+      - PHP
+      - Java
+      - Groovy/Grails
+      - Maven
+      - Hibernate
+      - Hudson (Jenkins)
+  - name: All Star Directories
+    position: Developer
+    startDate: 2002-06
+    endDate: 2006-07
+    summary: PHP and LAMP-stack development
+    highlights:
+      - Moved from single-file spaghetti code to MVC framework
+      - Grew with company from 5 to 150+ individuals
+
+education: 
+  - institution: University of Washington
+    degree: BS in Computer Engineering"
+    score: Cum Laude
+    
+# publications:
+#     {
+#       "name": "Java Release Process with Continuous Delivery",
+#       "publisher": null,
+#       "releaseDate": "2014-10-06",
+#       "summary": "The maven-release-plugin, while industry standard, is now a bit too heavy-handed for the world of Continuous Delivery. This article explains a very nice way of doing releases in a much faster and, in my opinion, more consistent manner. ",
+#       "url": "http://www.dev9.com/blog/2014/9/java-release-process-with-continuous-delivery"
+#     },
+#     {
+#       "name": "Dev Environments with Vagrant",
+#       "publisher": null,
+#       "releaseDate": "2014-09-03",
+#       "summary": "Setting up the toolchain for new hires and new machines is an incredibly expensive time suck. This article explains how to use Vagrant and Puppet to create repeatable and consistent environments suitable for onboarding.",
+#       "url": "http://www.dev9.com/blog/2014/9/dev-environments-with-vagrant"
+#     },
+#     {
+#       "name": "Smarter Acceptance Testing with Personas",
+#       "publisher": null,
+#       "releaseDate": "2014-07-21",
+#       "summary": "In any system, test data management is a big issue. This article outlines a way to combine BDD, flyway, and Personas as a method of managing your test data. ",
+#       "url": "http://www.dev9.com/blog/2014/7/smarter-acceptance-testing-with-personas"
+#     },
+#     {
+#       "name": "Performance 101: Causes of Bad Performance",
+#       "publisher": null,
+#       "releaseDate": "2014-04-16",
+#       "summary": "We finally get into the meat of performance: identifying and reducing contention. ",
+#       "url": "http://www.dev9.com/blog/2014/4/performance-101-causes-of-bad-performance"
+#     },
+#     {
+#       "name": "Performance 101: Measurement",
+#       "publisher": null,
+#       "releaseDate": "2014-04-07",
+#       "summary": "After the Terms talk, this gives us the math and tools used to measure performance, so we can see if our changes are actually helping. This helps enforce a data-driven approach to performance analysis.",
+#       "url": "http://www.dev9.com/blog/2014/4/performance-101-measurement"
+#     },
+#     {
+#       "name": "Performance 101: Terms",
+#       "publisher": null,
+#       "releaseDate": "2014-04-03",
+#       "summary": "First of a 3-part series on performance tuning. This defines some common and structured language so we can talk clearly about performance. ",
+#       "url": "http://www.dev9.com/blog/2014/4/performance-101-terms"
+#     },
+#     {
+#       "name": "Business Value of Automated Testing",
+#       "publisher": null,
+#       "releaseDate": "2014-02-12",
+#       "summary": "Why you and your business really should care about automated testing. ",
+#       "url": "http://www.dev9.com/blog/2014/2/business-value-of-automated-testing"
+#     }
