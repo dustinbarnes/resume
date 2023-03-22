@@ -2,7 +2,7 @@ contact:
   name: Dustin Barnes
   email: dustin.barnes@gmail.com
   headline: Experienced SDLC Expert
-  summary: |
+  summary: >-
       A 20+ year Software Development veteran with deep and broad experience
       in software development, cloud adoption, and CI/CD process. Multiple 
       successful migrations to the cloud (AWS and GCP), and onto container
@@ -34,6 +34,8 @@ skills:
     level: 9
   - name: Linux
     level: 9
+  - name: Kubernetes (K8s)
+    level: 8
   - name: NodeJS
     level: 8
   - name: Presentations
@@ -52,9 +54,9 @@ skills:
 work:
   - name: LivePerson
     position: Senior SDE (Developer Tools)
-    startDate: 2022-02-01
-    endDate: 2023-03-31
-    summary: |
+    startDate: 2022-02
+    endDate: 2023-03
+    summary: >-
         Original member of team tasked to level-up the CI/CD practice across
         the entire organization.
     highlights:
@@ -78,9 +80,9 @@ work:
       - ServiceNow
   - name: LivePerson
     position: Senior SDE (Product)
-    startDate: 2019-04-30
-    endDate: 2022-02-01
-    summary: |
+    startDate: 2019-04
+    endDate: 2022-02
+    summary: >-
         Leveled-up the CI/CD practice while tackling COVID-related 
         scaling issues.
     highlights:
@@ -104,8 +106,8 @@ work:
       - Spring
   - name: Dev9
     position: Solutions Architect
-    startDate: 2013-11-01
-    endDate: 2019-04-30
+    startDate: 2013-11
+    endDate: 2019-04
     summary: Consulted at many large software firms in the Seattle area
     highlights:
       - GCP Certified Solutions Architect (now expired)
@@ -137,8 +139,7 @@ work:
       - Ran PoC for Neo4j (Graph Database), to reduce RDBMS burden
       - Wrote native Neo4j plugins
       - 750m nodes, 3b edges
-      - Extensive Garbage Collection (GC) optimization, JVM optimization,
-        OS tuning, and workload optimization
+      - Extensive Garbage Collection (GC) optimization, JVM optimization
     tech:
       - Neo4j
       - Java 8
@@ -178,7 +179,7 @@ work:
     position: Developer III
     startDate: 2006-07
     endDate: 2011-03
-    summary: |
+    summary: >-
       Managed platform transition from PHP to Java, introducing CI
       before it was cool
     highlights:
@@ -199,11 +200,17 @@ work:
     highlights:
       - Moved from single-file spaghetti code to MVC framework
       - Grew with company from 5 to 150+ individuals
-
+    tech:
+      - PHP
+      - Linux
+      - Apache
+      - MySQL
 education: 
   - institution: University of Washington
-    degree: BS in Computer Engineering"
+    degree: BS in Computer Engineering
     score: Cum Laude
+    startDate: 2000
+    endDate: 2003
     
 # publications:
 #     {

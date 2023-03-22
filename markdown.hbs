@@ -1,0 +1,31 @@
+# {{contact.name}}
+
+*{{contact.summary}}*
+
+## Skills
+{{#skills}}
+- {{name}} ({{level}})
+{{/skills}}
+
+## Work History
+{{#work}}
+### {{name}} ({{startDate}} to {{endDate}})
+**{{position}}: {{summary}}**
+
+Highlights:
+{{#highlights}}
+  - {{.}}
+{{/highlights}}
+
+Key Tech Used:
+{{#tech}}
+  - {{.}}
+{{/tech}}
+
+{{/work}}
+
+## Education
+{{#education}}
+### {{institution}} ({{startDate}}-{{endDate}})
+{{degree}}, {{score}}
+{{/education}}
