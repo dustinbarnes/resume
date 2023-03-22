@@ -1,5 +1,14 @@
 # Dustin Barnes
 
+<div id="contact">
+    <ul>
+        <li>Email: dustin.barnes@gmail.com</li>
+        <li>Phone: Available by request</li>
+        <li>LinkedIn: https://www.linkedin.com/in/dustinbarnes/</li>
+        <li>GitHub: https://github.com/dustinbarnes</li>
+    </ul>
+</div>
+
 *A 20+ year Software Development veteran with deep and broad experience in software development, cloud adoption, and CI/CD process. Multiple  successful migrations to the cloud (AWS and GCP), and onto container technologies like Kubernetes.*
 
 ## Skills
@@ -19,8 +28,10 @@
 - Typescript (5)
 
 ## Work History
-### LivePerson (2022-02 to 2023-03)
-**Senior SDE (Developer Tools): Original member of team tasked to level-up the CI/CD practice across the entire organization.**
+### LivePerson
+**Senior SDE (Developer Tools) (2022-02 to 2023-03)**
+
+*Original member of team tasked to level-up the CI/CD practice across the entire organization.*
 
 Highlights:
   - Ran multiple PoCs for unified CI/CD tooling, settling on GitLab
@@ -30,7 +41,8 @@ Highlights:
   - Unified story for code, testing, deployment, monitoring, logging,
 metrics, security, and maintenance
 
-Key Tech Used:
+<p class="tech">Tech Used:</p>
+
   - GitHub
   - GitLab
   - K8s
@@ -43,8 +55,10 @@ Key Tech Used:
   - ELK stack
   - ServiceNow
 
-### LivePerson (2019-04 to 2022-02)
-**Senior SDE (Product): Leveled-up the CI/CD practice while tackling COVID-related  scaling issues.**
+### LivePerson
+**Senior SDE (Product) (2019-04 to 2022-02)**
+
+*Leveled-up the CI/CD practice while tackling COVID-related  scaling issues.*
 
 Highlights:
   - Led transition to horizontal scaling for primary backend product
@@ -53,7 +67,8 @@ Highlights:
   - Led migration from Puppet+VMs to K8s
   - Drove many efforts to adopt SDLC and CI/CD best practices
 
-Key Tech Used:
+<p class="tech">Tech Used:</p>
+
   - Java 8/11/17
   - Maven
   - Puppet
@@ -67,8 +82,10 @@ Key Tech Used:
   - ServiceNow
   - Spring
 
-### Dev9 (2013-11 to 2019-04)
-**Solutions Architect: Consulted at many large software firms in the Seattle area**
+### Dev9
+**Solutions Architect (2013-11 to 2019-04)**
+
+*Consulted at many large software firms in the Seattle area*
 
 Highlights:
   - GCP Certified Solutions Architect (now expired)
@@ -81,7 +98,8 @@ Highlights:
   - Interview, mentor, and train new leads and solutions architects
   - Used in strike team for urgent, complicated technical issues
 
-Key Tech Used:
+<p class="tech">Tech Used:</p>
+
   - GCP
   - AWS
   - Graphs-as-code
@@ -92,8 +110,10 @@ Key Tech Used:
   - Spring
   - Spring Boot
 
-### Dev9 (2012-11 to 2013-11)
-**Lead Developer: Consulting at a school-based social networking company**
+### Dev9
+**Lead Developer (2012-11 to 2013-11)**
+
+*Consulting at a school-based social networking company*
 
 Highlights:
   - Designed and implemented a realtime Change Data Capture (CDC) system
@@ -102,13 +122,16 @@ Highlights:
   - 750m nodes, 3b edges
   - Extensive Garbage Collection (GC) optimization, JVM optimization
 
-Key Tech Used:
+<p class="tech">Tech Used:</p>
+
   - Neo4j
   - Java 8
   - PostgreSQL
 
-### Dev9 (2012-06 to 2012-11)
-**Senior SDE: Consulting at a video game company in Redmond, WA**
+### Dev9
+**Senior SDE (2012-06 to 2012-11)**
+
+*Consulting at a video game company in Redmond, WA*
 
 Highlights:
   - IC to account services and sign-on services
@@ -117,14 +140,17 @@ Highlights:
   - Use Neustar to load test over 1 million users across geos
   - Launched on-time, under-budget, no issues on Christmas Day
 
-Key Tech Used:
+<p class="tech">Tech Used:</p>
+
   - Java 8
   - Gatling
   - Cassandra
   - TeamCity
 
-### Optify (2011-03 to 2012-06)
-**Senior SDE: Senior SDE at large-scale marketing automation firm**
+### Optify
+**Senior SDE (2011-03 to 2012-06)**
+
+*Senior SDE at large-scale marketing automation firm*
 
 Highlights:
   - Sharded PostgreSQL database with a transparent custom JPA driver
@@ -132,20 +158,24 @@ Highlights:
   - Deployed ElasticSearch to offload RDBMS burden
   - Championed CI/CD best practices such as build servers and binary repositories
 
-Key Tech Used:
+<p class="tech">Tech Used:</p>
+
   - Java 8
   - PostgreSQL
   - Jenkins
   - AWS
 
-### All Star Directories (2006-07 to 2011-03)
-**Developer III: Managed platform transition from PHP to Java, introducing CI before it was cool**
+### All Star Directories
+**Developer III (2006-07 to 2011-03)**
+
+*Managed platform transition from PHP to Java, introducing CI before it was cool*
 
 Highlights:
   - SME for legacy app, Lead on new app
   - Interviewed, managed, and mentored other developers
 
-Key Tech Used:
+<p class="tech">Tech Used:</p>
+
   - PHP
   - Java
   - Groovy/Grails
@@ -153,14 +183,17 @@ Key Tech Used:
   - Hibernate
   - Hudson (Jenkins)
 
-### All Star Directories (2002-06 to 2006-07)
-**Developer: PHP and LAMP-stack development**
+### All Star Directories
+**Developer (2002-06 to 2006-07)**
+
+*PHP and LAMP-stack development*
 
 Highlights:
   - Moved from single-file spaghetti code to MVC framework
   - Grew with company from 5 to 150+ individuals
 
-Key Tech Used:
+<p class="tech">Tech Used:</p>
+
   - PHP
   - Linux
   - Apache
@@ -168,5 +201,6 @@ Key Tech Used:
 
 
 ## Education
-### University of Washington (2000-2003)
+**University of Washington (2000-2003)**
+
 BS in Computer Engineering, Cum Laude

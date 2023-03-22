@@ -1,5 +1,15 @@
 # {{contact.name}}
 
+<div id="contact">
+    <ul>
+        <li>Email: {{contact.email}}</li>
+        <li>Phone: Available by request</li>
+        {{#contact.profiles}}
+        <li>{{network}}: {{url}}</li>
+        {{/contact.profiles}}
+    </ul>
+</div>
+
 *{{contact.summary}}*
 
 ## Skills
@@ -9,15 +19,18 @@
 
 ## Work History
 {{#work}}
-### {{name}} ({{startDate}} to {{endDate}})
-**{{position}}: {{summary}}**
+### {{name}}
+**{{position}} ({{startDate}} to {{endDate}})**
+
+*{{summary}}*
 
 Highlights:
 {{#highlights}}
   - {{.}}
 {{/highlights}}
 
-Key Tech Used:
+<p class="tech">Tech Used:</p>
+
 {{#tech}}
   - {{.}}
 {{/tech}}
@@ -26,6 +39,7 @@ Key Tech Used:
 
 ## Education
 {{#education}}
-### {{institution}} ({{startDate}}-{{endDate}})
+**{{institution}} ({{startDate}}-{{endDate}})**
+
 {{degree}}, {{score}}
 {{/education}}

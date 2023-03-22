@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style>
+  body {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    color: #24292f;
+    background-color: #ffffff;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    max-width: 50em !important;
+  }
+
+  h1 {
+      padding-bottom: 0.3em;
+      font-size: 2em;
+      border-bottom: 1px solid #aaa;
+  }
+
+  h2 {
+      padding-bottom: 0.3em;
+      font-size: 1.5em;
+      border-bottom: 1px solid #aaa;
+  }
+
+  h2#skills + ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+
+  h3 {
+      padding-bottom: 0.2em;
+      font-size: 1.2em;
+      border-bottom: 1px solid #aaa
+  }
+
+  div#contact {
+      float: right;
+      margin-top: -9em;
+  }
+
+  p.tech + ul {
+      columns: 3;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+  }
+
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="dustin-barnes">Dustin Barnes</h1>
+<div id="contact">
+    <ul>
+        <li>Email: dustin.barnes@gmail.com</li>
+        <li>Phone: Available by request</li>
+        <li>LinkedIn: https://www.linkedin.com/in/dustinbarnes/</li>
+        <li>GitHub: https://github.com/dustinbarnes</li>
+    </ul>
+</div>
+
+<p><em>A 20+ year Software Development veteran with deep and broad
+experience in software development, cloud adoption, and CI/CD process.
+Multiple successful migrations to the cloud (AWS and GCP), and onto
+container technologies like Kubernetes.</em></p>
+<h2 id="skills">Skills</h2>
+<ul>
+<li>Java 8+ (10)</li>
+<li>CI/CD (10)</li>
+<li>Kanban (10)</li>
+<li>Test Automation (10)</li>
+<li>Agile/Scrum (9)</li>
+<li>Linux (9)</li>
+<li>Kubernetes (K8s) (8)</li>
+<li>NodeJS (8)</li>
+<li>Presentations (8)</li>
+<li>GitLab (8)</li>
+<li>HTML/CSS/JS (8)</li>
+<li>GCP (7)</li>
+<li>AWS (6)</li>
+<li>Typescript (5)</li>
+</ul>
+<h2 id="work-history">Work History</h2>
+<h3 id="liveperson">LivePerson</h3>
+<p><strong>Senior SDE (Developer Tools) (2022-02 to
+2023-03)</strong></p>
+<p><em>Original member of team tasked to level-up the CI/CD practice
+across the entire organization.</em></p>
+<p>Highlights:</p>
+<ul>
+<li>Ran multiple PoCs for unified CI/CD tooling, settling on GitLab</li>
+<li>Wrote automation tooling to migrate repositories from GitHub to
+GitLab</li>
+<li>Migrated from TeamCity/Jenkins to GitLab CI/CD</li>
+<li>Focused on Developer Experience, and providing a developer
+platform</li>
+<li>Unified story for code, testing, deployment, monitoring, logging,
+metrics, security, and maintenance</li>
+</ul>
+<p class="tech">Tech Used:</p>
+
+<ul>
+<li>GitHub</li>
+<li>GitLab</li>
+<li>K8s</li>
+<li>Docker</li>
+<li>confd</li>
+<li>Node</li>
+<li>Java 8/11/17</li>
+<li>Maven</li>
+<li>GCP</li>
+<li>ELK stack</li>
+<li>ServiceNow</li>
+</ul>
+<h3 id="liveperson-1">LivePerson</h3>
+<p><strong>Senior SDE (Product) (2019-04 to 2022-02)</strong></p>
+<p><em>Leveled-up the CI/CD practice while tackling COVID-related
+scaling issues.</em></p>
+<p>Highlights:</p>
+<ul>
+<li>Led transition to horizontal scaling for primary backend
+product</li>
+<li>Java8, 10+ years old code base, shard-based solution with nginx
+routing</li>
+<li>Drove a feature-flag system to manage releases</li>
+<li>Led migration from Puppet+VMs to K8s</li>
+<li>Drove many efforts to adopt SDLC and CI/CD best practices</li>
+</ul>
+<p class="tech">Tech Used:</p>
+
+<ul>
+<li>Java 8/11/17</li>
+<li>Maven</li>
+<li>Puppet</li>
+<li>Virtual Machines</li>
+<li>K8s</li>
+<li>TeamCity</li>
+<li>Jenkins</li>
+<li>Node</li>
+<li>CI/CD</li>
+<li>ELK stack</li>
+<li>ServiceNow</li>
+<li>Spring</li>
+</ul>
+<h3 id="dev9">Dev9</h3>
+<p><strong>Solutions Architect (2013-11 to 2019-04)</strong></p>
+<p><em>Consulted at many large software firms in the Seattle
+area</em></p>
+<p>Highlights:</p>
+<ul>
+<li>GCP Certified Solutions Architect (now expired)</li>
+<li>AWS Associate Solutions Architect (now expired)</li>
+<li>Consulted on CI/CD best practices</li>
+<li>Developed a Continuous Delivery Maturity Model as client rubric</li>
+<li>Lift-and-shift from datacenter to GCP/Kubernetes</li>
+<li>Lift-and-shift from datacenter to AWS</li>
+<li>Present to, and collaborate with, C-level and VP-level decision
+makers</li>
+<li>Interview, mentor, and train new leads and solutions architects</li>
+<li>Used in strike team for urgent, complicated technical issues</li>
+</ul>
+<p class="tech">Tech Used:</p>
+
+<ul>
+<li>GCP</li>
+<li>AWS</li>
+<li>Graphs-as-code</li>
+<li>Java 8</li>
+<li>Node</li>
+<li>K8s</li>
+<li>CI/CD</li>
+<li>Spring</li>
+<li>Spring Boot</li>
+</ul>
+<h3 id="dev9-1">Dev9</h3>
+<p><strong>Lead Developer (2012-11 to 2013-11)</strong></p>
+<p><em>Consulting at a school-based social networking company</em></p>
+<p>Highlights:</p>
+<ul>
+<li>Designed and implemented a realtime Change Data Capture (CDC)
+system</li>
+<li>Ran PoC for Neo4j (Graph Database), to reduce RDBMS burden</li>
+<li>Wrote native Neo4j plugins</li>
+<li>750m nodes, 3b edges</li>
+<li>Extensive Garbage Collection (GC) optimization, JVM
+optimization</li>
+</ul>
+<p class="tech">Tech Used:</p>
+
+<ul>
+<li>Neo4j</li>
+<li>Java 8</li>
+<li>PostgreSQL</li>
+</ul>
+<h3 id="dev9-2">Dev9</h3>
+<p><strong>Senior SDE (2012-06 to 2012-11)</strong></p>
+<p><em>Consulting at a video game company in Redmond, WA</em></p>
+<p>Highlights:</p>
+<ul>
+<li>IC to account services and sign-on services</li>
+<li>Drove plan to stress/load-test service prior to launch</li>
+<li>Used Gatling locally to load test up to 1000s of users</li>
+<li>Use Neustar to load test over 1 million users across geos</li>
+<li>Launched on-time, under-budget, no issues on Christmas Day</li>
+</ul>
+<p class="tech">Tech Used:</p>
+
+<ul>
+<li>Java 8</li>
+<li>Gatling</li>
+<li>Cassandra</li>
+<li>TeamCity</li>
+</ul>
+<h3 id="optify">Optify</h3>
+<p><strong>Senior SDE (2011-03 to 2012-06)</strong></p>
+<p><em>Senior SDE at large-scale marketing automation firm</em></p>
+<p>Highlights:</p>
+<ul>
+<li>Sharded PostgreSQL database with a transparent custom JPA
+driver</li>
+<li>Integrated Recurly for subscription payments with easy PCI
+compliance</li>
+<li>Deployed ElasticSearch to offload RDBMS burden</li>
+<li>Championed CI/CD best practices such as build servers and binary
+repositories</li>
+</ul>
+<p class="tech">Tech Used:</p>
+
+<ul>
+<li>Java 8</li>
+<li>PostgreSQL</li>
+<li>Jenkins</li>
+<li>AWS</li>
+</ul>
+<h3 id="all-star-directories">All Star Directories</h3>
+<p><strong>Developer III (2006-07 to 2011-03)</strong></p>
+<p><em>Managed platform transition from PHP to Java, introducing CI
+before it was cool</em></p>
+<p>Highlights:</p>
+<ul>
+<li>SME for legacy app, Lead on new app</li>
+<li>Interviewed, managed, and mentored other developers</li>
+</ul>
+<p class="tech">Tech Used:</p>
+
+<ul>
+<li>PHP</li>
+<li>Java</li>
+<li>Groovy/Grails</li>
+<li>Maven</li>
+<li>Hibernate</li>
+<li>Hudson (Jenkins)</li>
+</ul>
+<h3 id="all-star-directories-1">All Star Directories</h3>
+<p><strong>Developer (2002-06 to 2006-07)</strong></p>
+<p><em>PHP and LAMP-stack development</em></p>
+<p>Highlights:</p>
+<ul>
+<li>Moved from single-file spaghetti code to MVC framework</li>
+<li>Grew with company from 5 to 150+ individuals</li>
+</ul>
+<p class="tech">Tech Used:</p>
+
+<ul>
+<li>PHP</li>
+<li>Linux</li>
+<li>Apache</li>
+<li>MySQL</li>
+</ul>
+<h2 id="education">Education</h2>
+<p><strong>University of Washington (2000-2003)</strong></p>
+<p>BS in Computer Engineering, Cum Laude</p>
+</body>
+</html>

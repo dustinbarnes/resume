@@ -35,22 +35,7 @@ The only tricky part is rendering the YAML as HTML. From there, we then use a to
 This is the boring part, and also the most time consuming. You can see the source document by clicking on the file named `resume.yml` in this repository.
 
 ## Rendering
-Now it's time to do something with the YAML. My first target will be, ironically enough, Markdown. For the same reason it was considered initially as the source, it's possible to render basic markdown and have it look reasonably good with little fuss. To do this, I need a way to render a file output. Having previous experience with Handlebars, I just jumped to that tool. There's a [ruby-based mustache cli](https://mustache.github.io/mustache.1.html), so it's easy to install: 
-
-```
-[16:18:53] dustin in ~
-$ gem install mustache
-Fetching mustache-1.1.1.gem
-Successfully installed mustache-1.1.1
-Parsing documentation for mustache-1.1.1
-Installing ri documentation for mustache-1.1.1
-Done installing documentation for mustache after 0 seconds
-1 gem installed
-
-[16:19:13] dustin in ~
-$ mustache
-Usage: mustache [-c] [-t] [-e] [-r library] FILE ...
-```
+Now it's time to do something with the YAML. My first target will be, ironically enough, Markdown. For the same reason it was considered initially as the source, it's possible to render basic markdown and have it look reasonably good with little fuss. To do this, I need a way to render a file output. Having previous experience with Handlebars, I just jumped to that tool. 
 
 To test something dead simple, I created `test.markdown.ms`, and gave it a very straightforward template:
 
@@ -64,7 +49,7 @@ And then ran it:
 
 ```
 [16:25:29] dustin in ~/ws/resume on main [?]
-$ mustache ./resume.yml ./test.markdown.ms
+$ hb -i ./resume.yml -t test.markdown.hbs -s true
 Dustin Barnes
 
 A 20+ year Software Development veteran with deep and broad experience
@@ -72,6 +57,9 @@ in software development, cloud adoption, and CI/CD process. Multiple
 successful migrations to the cloud (AWS and GCP), and onto container
 technologies like Kubernetes.
 ```
+
+From there, I applied basic formatting and now there's a rendering at [`rendered/resume.md`](https://github.com/dustinbarnes/resume/blob/main/rendered/resume.md). It is, rather unsurprisingly, a nice rendering. 
+
 
 ## Automation
 
