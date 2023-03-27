@@ -1,0 +1,39 @@
+{{contact.name}}
+
+Email: {{contact.email}}
+Phone: {{contact.phone}}
+{{#contact.profiles}}
+{{network}}: {{url}}
+{{/contact.profiles}}
+    
+{{contact.summary}}
+
+Skills:
+{{#skills}}
+- {{name}} ({{level}})
+{{/skills}}
+
+Work History:
+{{#work}}
+## {{name}}
+  {{position}} ({{startDate}} to {{endDate}})
+
+  Summary: {{summary}}
+
+  Highlights:
+  {{#highlights}}
+  - {{.}}
+  {{/highlights}}
+
+  Tech Used:
+  {{#tech}}
+  - {{.}}
+  {{/tech}}
+
+{{/work}}
+
+Education:
+{{#education}}
+{{institution}} ({{startDate}}-{{endDate}})
+  {{degree}}, {{score}}
+{{/education}}

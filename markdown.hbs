@@ -2,10 +2,10 @@
 
 <div id="contact">
     <ul>
-        <li>Email: {{contact.email}}</li>
-        <li>Phone: Available by request</li>
+        <li>Email: <a href="mailto:{{contact.email}}">{{contact.email}}</a></li>
+        <li>Phone: {{contact.phone}}</li>
         {{#contact.profiles}}
-        <li>{{network}}: {{url}}</li>
+        <li>{{network}}: <a href="{{url}}">{{url}}</a></li>
         {{/contact.profiles}}
     </ul>
 </div>

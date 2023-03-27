@@ -1,17 +1,13 @@
-# Dustin Barnes
+Dustin Barnes
 
-<div id="contact">
-    <ul>
-        <li>Email: <a href="mailto:dustin.barnes@gmail.com">dustin.barnes@gmail.com</a></li>
-        <li>Phone: Upon Request</li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/dustinbarnes/">https://www.linkedin.com/in/dustinbarnes/</a></li>
-        <li>GitHub: <a href="https://github.com/dustinbarnes">https://github.com/dustinbarnes</a></li>
-    </ul>
-</div>
+Email: dustin.barnes@gmail.com
+Phone: Upon Request
+LinkedIn: https://www.linkedin.com/in/dustinbarnes/
+GitHub: https://github.com/dustinbarnes
+    
+A 20+ year Software Development veteran with deep and broad experience in software development, CI/CD, cloud migrations, platform modernizations, and championing SDLC best practices.
 
-*A 20+ year Software Development veteran with deep and broad experience in software development, CI/CD, cloud migrations, platform modernizations, and championing SDLC best practices.*
-
-## Skills
+Skills:
 - Java 8+ (10)
 - CI/CD (10)
 - Kanban (10)
@@ -27,21 +23,20 @@
 - AWS (6)
 - Typescript (5)
 
-## Work History
-### LivePerson
-**Senior SDE (Developer Tools) (2022-02 to 2023-03)**
+Work History:
+## LivePerson
+  Senior SDE (Developer Tools) (2022-02 to 2023-03)
 
-*Original member of team tasked to level-up the CI/CD practice across the entire organization.*
+  Summary: Original member of team tasked to level-up the CI/CD practice across the entire organization.
 
-Highlights:
+  Highlights:
   - Ran multiple PoCs for unified CI/CD tooling, choosing GitLab
   - Wrote automation tooling to migrate repositories from GitHub to GitLab
   - Migrated from TeamCity/Jenkins to GitLab CI/CD
   - Focused on Developer Experience, and providing a developer platform
   - Unified story for code, testing, deployment, monitoring, logging, metrics, security, and maintenance
 
-<p class="tech">Tech Used:</p>
-
+  Tech Used:
   - GitHub
   - GitLab
   - K8s
@@ -55,20 +50,19 @@ Highlights:
   - ELK stack
   - ServiceNow
 
-### LivePerson
-**Senior SDE (Product) (2019-04 to 2022-02)**
+## LivePerson
+  Senior SDE (Product) (2019-04 to 2022-02)
 
-*Leveled-up the CI/CD practice while tackling COVID-related  scaling issues.*
+  Summary: Leveled-up the CI/CD practice while tackling COVID-related  scaling issues.
 
-Highlights:
+  Highlights:
   - Led transition to horizontal scaling for primary backend messaging product
   - Java8, large 10+ years old code base, shard-based solution with nginx routing
   - Drove a feature-flag system to reduce risk during releases
   - Led migration of messaging product from Puppet+VMs to K8s
   - Drove many efforts to adopt SDLC and CI/CD best practices
 
-<p class="tech">Tech Used:</p>
-
+  Tech Used:
   - Java 8/11/17
   - Maven
   - Puppet
@@ -82,12 +76,12 @@ Highlights:
   - ServiceNow
   - Spring
 
-### Dev9
-**Solutions Architect (2013-11 to 2019-04)**
+## Dev9
+  Solutions Architect (2013-11 to 2019-04)
 
-*Consulted at many large software firms in the Seattle area*
+  Summary: Consulted at many large software firms in the Seattle area
 
-Highlights:
+  Highlights:
   - GCP Certified Solutions Architect (now expired)
   - AWS Associate Solutions Architect (now expired)
   - Public presentations at SeaJUG and other small tech meet-ups
@@ -97,8 +91,7 @@ Highlights:
   - Interview, mentor, and train new leads and solutions architects
   - Used in strike team for urgent, complicated technical issues
 
-<p class="tech">Tech Used:</p>
-
+  Tech Used:
   - GCP
   - AWS
   - Graphs-as-code
@@ -109,71 +102,67 @@ Highlights:
   - Spring
   - Spring Boot
 
-### Dev9
-**Lead Developer (2012-11 to 2013-11)**
+## Dev9
+  Lead Developer (2012-11 to 2013-11)
 
-*Consulting at a school-based social networking company*
+  Summary: Consulting at a school-based social networking company
 
-Highlights:
+  Highlights:
   - Designed and implemented a realtime Change Data Capture (CDC) system
   - Ran PoC for Neo4j (Graph Database), to reduce RDBMS load
   - Wrote native Neo4j plugins agasint 750m nodes, 3b edges
   - Extensive Garbage Collection (GC) optimization, JVM optimization
 
-<p class="tech">Tech Used:</p>
-
+  Tech Used:
   - Neo4j
   - Java 8
   - PostgreSQL
 
-### Dev9
-**Senior SDE (2012-06 to 2012-11)**
+## Dev9
+  Senior SDE (2012-06 to 2012-11)
 
-*Consulting at a video game company in Redmond, WA*
+  Summary: Consulting at a video game company in Redmond, WA
 
-Highlights:
+  Highlights:
   - IC to account services and sign-on services
   - Drove plan to stress/load-test service prior to launch
   - Successfully simulated 1 million simultaneous users around the world
   - Deep performance analysis and tuning
   - Launched on-time, under-budget, no issues on Christmas Day
 
-<p class="tech">Tech Used:</p>
-
+  Tech Used:
   - Java 8
   - Gatling
   - Cassandra
   - TeamCity
 
-### Optify
-**Senior SDE (2011-03 to 2012-06)**
+## Optify
+  Senior SDE (2011-03 to 2012-06)
 
-*Large-scale marketing automation startup*
+  Summary: Large-scale marketing automation startup
 
-Highlights:
+  Highlights:
   - Sharded PostgreSQL database with a custom JPA driver
   - Integrated Recurly for subscription payments with simplified PCI compliance
   - Deployed ElasticSearch to offload RDBMS load
   - Championed CI/CD best practices such as build servers and binary repositories
 
-<p class="tech">Tech Used:</p>
-
+  Tech Used:
   - Java 8
   - PostgreSQL
   - Jenkins
   - AWS
 
-### All Star Directories
-**Developer III (2006-07 to 2011-03)**
+## All Star Directories
+  Developer III (2006-07 to 2011-03)
 
-*Managed platform transition from PHP to Java, introducing CI before it was cool*
+  Summary: Managed platform transition from PHP to Java, introducing CI before it was cool
 
-Highlights:
+  Highlights:
   - Platform transition from PHP to Java
   - Interviewed, managed, and mentored other developers
 
-<p class="tech">Tech Used:</p>
-
+  Tech Used:
   - PHP
   - Java
   - Groovy/Grails
@@ -181,24 +170,22 @@ Highlights:
   - Hibernate
   - Hudson (Jenkins)
 
-### All Star Directories
-**Developer (2002-06 to 2006-07)**
+## All Star Directories
+  Developer (2002-06 to 2006-07)
 
-*PHP and LAMP-stack development*
+  Summary: PHP and LAMP-stack development
 
-Highlights:
+  Highlights:
   - Moved from single-file spaghetti code to MVC framework
   - Grew with company from 5 to 150+ individuals
 
-<p class="tech">Tech Used:</p>
-
+  Tech Used:
   - Linux
   - Apache
   - MySQL
   - PHP
 
 
-## Education
-**University of Washington (2000-2003)**
-
-BS in Computer Engineering, Cum Laude
+Education:
+University of Washington (2000-2003)
+  BS in Computer Engineering, Cum Laude

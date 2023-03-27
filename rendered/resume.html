@@ -162,16 +162,14 @@
   </style>
   <style>
   body {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    margin: 0;
     color: #24292f;
     background-color: #ffffff;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.3;
     word-wrap: break-word;
     max-width: 50em !important;
+    padding-top: 30px;
   }
 
   h1 {
@@ -200,7 +198,7 @@
 
   div#contact {
       float: right;
-      margin-top: -9em;
+      margin-top: -8.2em;
   }
 
   p.tech + ul {
@@ -218,17 +216,16 @@
 <h1 id="dustin-barnes">Dustin Barnes</h1>
 <div id="contact">
     <ul>
-        <li>Email: dustin.barnes@gmail.com</li>
-        <li>Phone: Available by request</li>
-        <li>LinkedIn: https://www.linkedin.com/in/dustinbarnes/</li>
-        <li>GitHub: https://github.com/dustinbarnes</li>
+        <li>Email: <a href="mailto:dustin.barnes@gmail.com">dustin.barnes@gmail.com</a></li>
+        <li>Phone: Upon Request</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/dustinbarnes/">https://www.linkedin.com/in/dustinbarnes/</a></li>
+        <li>GitHub: <a href="https://github.com/dustinbarnes">https://github.com/dustinbarnes</a></li>
     </ul>
 </div>
 
 <p><em>A 20+ year Software Development veteran with deep and broad
-experience in software development, cloud adoption, and CI/CD process.
-Multiple successful migrations to the cloud (AWS and GCP), and onto
-container technologies like Kubernetes.</em></p>
+experience in software development, CI/CD, cloud migrations, platform
+modernizations, and championing SDLC best practices.</em></p>
 <h2 id="skills">Skills</h2>
 <ul>
 <li>Java 8+ (10)</li>
@@ -254,7 +251,7 @@ container technologies like Kubernetes.</em></p>
 across the entire organization.</em></p>
 <p>Highlights:</p>
 <ul>
-<li>Ran multiple PoCs for unified CI/CD tooling, settling on GitLab</li>
+<li>Ran multiple PoCs for unified CI/CD tooling, choosing GitLab</li>
 <li>Wrote automation tooling to migrate repositories from GitHub to
 GitLab</li>
 <li>Migrated from TeamCity/Jenkins to GitLab CI/CD</li>
@@ -269,6 +266,7 @@ metrics, security, and maintenance</li>
 <li>GitHub</li>
 <li>GitLab</li>
 <li>K8s</li>
+<li>Bash</li>
 <li>Docker</li>
 <li>confd</li>
 <li>Node</li>
@@ -284,12 +282,12 @@ metrics, security, and maintenance</li>
 scaling issues.</em></p>
 <p>Highlights:</p>
 <ul>
-<li>Led transition to horizontal scaling for primary backend
+<li>Led transition to horizontal scaling for primary backend messaging
 product</li>
-<li>Java8, 10+ years old code base, shard-based solution with nginx
-routing</li>
-<li>Drove a feature-flag system to manage releases</li>
-<li>Led migration from Puppet+VMs to K8s</li>
+<li>Java8, large 10+ years old code base, shard-based solution with
+nginx routing</li>
+<li>Drove a feature-flag system to reduce risk during releases</li>
+<li>Led migration of messaging product from Puppet+VMs to K8s</li>
 <li>Drove many efforts to adopt SDLC and CI/CD best practices</li>
 </ul>
 <p class="tech">Tech Used:</p>
@@ -316,10 +314,9 @@ area</em></p>
 <ul>
 <li>GCP Certified Solutions Architect (now expired)</li>
 <li>AWS Associate Solutions Architect (now expired)</li>
-<li>Consulted on CI/CD best practices</li>
+<li>Public presentations at SeaJUG and other small tech meet-ups</li>
 <li>Developed a Continuous Delivery Maturity Model as client rubric</li>
-<li>Lift-and-shift from datacenter to GCP/Kubernetes</li>
-<li>Lift-and-shift from datacenter to AWS</li>
+<li>Lift-and-shift from datacenter to cloud</li>
 <li>Present to, and collaborate with, C-level and VP-level decision
 makers</li>
 <li>Interview, mentor, and train new leads and solutions architects</li>
@@ -345,9 +342,8 @@ makers</li>
 <ul>
 <li>Designed and implemented a realtime Change Data Capture (CDC)
 system</li>
-<li>Ran PoC for Neo4j (Graph Database), to reduce RDBMS burden</li>
-<li>Wrote native Neo4j plugins</li>
-<li>750m nodes, 3b edges</li>
+<li>Ran PoC for Neo4j (Graph Database), to reduce RDBMS load</li>
+<li>Wrote native Neo4j plugins agasint 750m nodes, 3b edges</li>
 <li>Extensive Garbage Collection (GC) optimization, JVM
 optimization</li>
 </ul>
@@ -365,8 +361,9 @@ optimization</li>
 <ul>
 <li>IC to account services and sign-on services</li>
 <li>Drove plan to stress/load-test service prior to launch</li>
-<li>Used Gatling locally to load test up to 1000s of users</li>
-<li>Use Neustar to load test over 1 million users across geos</li>
+<li>Successfully simulated 1 million simultaneous users around the
+world</li>
+<li>Deep performance analysis and tuning</li>
 <li>Launched on-time, under-budget, no issues on Christmas Day</li>
 </ul>
 <p class="tech">Tech Used:</p>
@@ -379,14 +376,13 @@ optimization</li>
 </ul>
 <h3 id="optify">Optify</h3>
 <p><strong>Senior SDE (2011-03 to 2012-06)</strong></p>
-<p><em>Senior SDE at large-scale marketing automation firm</em></p>
+<p><em>Large-scale marketing automation startup</em></p>
 <p>Highlights:</p>
 <ul>
-<li>Sharded PostgreSQL database with a transparent custom JPA
-driver</li>
-<li>Integrated Recurly for subscription payments with easy PCI
+<li>Sharded PostgreSQL database with a custom JPA driver</li>
+<li>Integrated Recurly for subscription payments with simplified PCI
 compliance</li>
-<li>Deployed ElasticSearch to offload RDBMS burden</li>
+<li>Deployed ElasticSearch to offload RDBMS load</li>
 <li>Championed CI/CD best practices such as build servers and binary
 repositories</li>
 </ul>
@@ -404,7 +400,7 @@ repositories</li>
 before it was cool</em></p>
 <p>Highlights:</p>
 <ul>
-<li>SME for legacy app, Lead on new app</li>
+<li>Platform transition from PHP to Java</li>
 <li>Interviewed, managed, and mentored other developers</li>
 </ul>
 <p class="tech">Tech Used:</p>
@@ -428,10 +424,10 @@ before it was cool</em></p>
 <p class="tech">Tech Used:</p>
 
 <ul>
-<li>PHP</li>
 <li>Linux</li>
 <li>Apache</li>
 <li>MySQL</li>
+<li>PHP</li>
 </ul>
 <h2 id="education">Education</h2>
 <p><strong>University of Washington (2000-2003)</strong></p>
