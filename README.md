@@ -58,6 +58,8 @@ successful migrations to the cloud (AWS and GCP), and onto container
 technologies like Kubernetes.
 ```
 
+Note: the `hb` tool is installed with: `npm install https://github.com/RealOrko/nodejs-handlebars-cli.git -g`
+
 From there, I applied basic formatting and now there's a rendering at [`rendered/resume.md`](https://github.com/dustinbarnes/resume/blob/main/rendered/resume.md). It is, rather unsurprisingly, a nice rendering. 
 
 

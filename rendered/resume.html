@@ -60,6 +60,10 @@
     img {
       max-width: 100%;
     }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
     h1, h2, h3, h4, h5, h6 {
       margin-top: 1.4em;
     }
@@ -103,8 +107,8 @@
      overflow: visible;
     }
     hr {
-      background-color: #1a1a1a;
       border: none;
+      border-top: 1px solid #1a1a1a;
       height: 1px;
       margin: 1em 0;
     }
@@ -152,8 +156,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -185,9 +192,9 @@
   }
 
   h2#skills + ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
   }
 
   h3 {
@@ -203,14 +210,11 @@
 
   p.tech + ul {
       columns: 3;
-      -webkit-columns: 2;
-      -moz-columns: 2;
+      -webkit-columns: 3;
+      -moz-columns: 3;
   }
 
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <h1 id="dustin-barnes">Dustin Barnes</h1>
@@ -225,7 +229,8 @@
 
 <p><em>A 20+ year Software Development veteran with deep and broad
 experience in software development, CI/CD, cloud migrations, platform
-modernizations, and championing SDLC best practices.</em></p>
+modernizations, developer productivitiy, and championing SDLC best
+practices.</em></p>
 <h2 id="skills">Skills</h2>
 <ul>
 <li>Java 8+ (10)</li>
@@ -236,14 +241,46 @@ modernizations, and championing SDLC best practices.</em></p>
 <li>Linux (9)</li>
 <li>Kubernetes (K8s) (8)</li>
 <li>NodeJS (8)</li>
-<li>Presentations (8)</li>
-<li>GitLab (8)</li>
-<li>HTML/CSS/JS (8)</li>
+<li>Tech Presentations (8)</li>
+<li>GitHub (8)</li>
+<li>GitLab (7)</li>
+<li>HTML/CSS/JS (7)</li>
 <li>GCP (7)</li>
 <li>AWS (6)</li>
-<li>Typescript (5)</li>
+<li>Typescript (6)</li>
 </ul>
 <h2 id="work-history">Work History</h2>
+<h3 id="celonis">Celonis</h3>
+<p><strong>Senior SDE (Remote, Developer Tools) (2023-09 to
+2025-04)</strong></p>
+<p><em>Built a team to focus on developer tools, developer productivity,
+and developer experience.</em></p>
+<p>Highlights:</p>
+<ul>
+<li>Implemented K8s-based hybrid-local development solutions
+(telepresence, mirrord)</li>
+<li>Dramatically simplified engineering onboarding and ramp-up (months
+to days)</li>
+<li>Unified CI/CD processes for product organization</li>
+<li>Enabling certification for FedRAMP</li>
+<li>Heavy use of GitHub Actions (GHA) for automation</li>
+<li>Grew team from 1 to 6 members</li>
+</ul>
+<p class="tech">Tech Used:</p>
+
+<ul>
+<li>GitHub</li>
+<li>GitHub Actions</li>
+<li>K8s</li>
+<li>Bash</li>
+<li>Docker</li>
+<li>ArgoCD</li>
+<li>Node/TypeScript</li>
+<li>Java 8/11/17+</li>
+<li>Maven</li>
+<li>DataDog</li>
+<li>Mirrord</li>
+</ul>
 <h3 id="liveperson">LivePerson</h3>
 <p><strong>Senior SDE (Developer Tools) (2022-02 to
 2023-03)</strong></p>
@@ -283,7 +320,7 @@ scaling issues.</em></p>
 <p>Highlights:</p>
 <ul>
 <li>Led transition to horizontal scaling for primary backend messaging
-product</li>
+product (&gt;1m per day)</li>
 <li>Java8, large 10+ years old code base, shard-based solution with
 nginx routing</li>
 <li>Drove a feature-flag system to reduce risk during releases</li>

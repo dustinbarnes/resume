@@ -5,7 +5,7 @@ Phone: Upon Request
 LinkedIn: https://www.linkedin.com/in/dustinbarnes/
 GitHub: https://github.com/dustinbarnes
     
-A 20+ year Software Development veteran with deep and broad experience in software development, CI/CD, cloud migrations, platform modernizations, and championing SDLC best practices.
+A 20+ year Software Development veteran with deep and broad experience in software development, CI/CD, cloud migrations, platform modernizations, developer productivitiy, and championing SDLC best practices.
 
 Skills:
 - Java 8+ (10)
@@ -16,14 +16,41 @@ Skills:
 - Linux (9)
 - Kubernetes (K8s) (8)
 - NodeJS (8)
-- Presentations (8)
-- GitLab (8)
-- HTML/CSS/JS (8)
+- Tech Presentations (8)
+- GitHub (8)
+- GitLab (7)
+- HTML/CSS/JS (7)
 - GCP (7)
 - AWS (6)
-- Typescript (5)
+- Typescript (6)
 
 Work History:
+## Celonis
+  Senior SDE (Remote, Developer Tools) (2023-09 to 2025-04)
+
+  Summary: Built a team to focus on developer tools, developer productivity, and developer experience.
+
+  Highlights:
+  - Implemented K8s-based hybrid-local development solutions (telepresence, mirrord)
+  - Dramatically simplified engineering onboarding and ramp-up (months to days)
+  - Unified CI/CD processes for product organization
+  - Enabling certification for FedRAMP
+  - Heavy use of GitHub Actions (GHA) for automation
+  - Grew team from 1 to 6 members
+
+  Tech Used:
+  - GitHub
+  - GitHub Actions
+  - K8s
+  - Bash
+  - Docker
+  - ArgoCD
+  - Node/TypeScript
+  - Java 8/11/17+
+  - Maven
+  - DataDog
+  - Mirrord
+
 ## LivePerson
   Senior SDE (Developer Tools) (2022-02 to 2023-03)
 
@@ -56,7 +83,7 @@ Work History:
   Summary: Leveled-up the CI/CD practice while tackling COVID-related  scaling issues.
 
   Highlights:
-  - Led transition to horizontal scaling for primary backend messaging product
+  - Led transition to horizontal scaling for primary backend messaging product (&gt;1m per day)
   - Java8, large 10+ years old code base, shard-based solution with nginx routing
   - Drove a feature-flag system to reduce risk during releases
   - Led migration of messaging product from Puppet+VMs to K8s

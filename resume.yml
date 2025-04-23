@@ -6,7 +6,7 @@ contact:
   summary: >-
       A 20+ year Software Development veteran with deep and broad experience
       in software development, CI/CD, cloud migrations, platform modernizations,
-      and championing SDLC best practices.
+      developer productivitiy, and championing SDLC best practices.
 
   location:
     countryCode: US
@@ -38,20 +38,47 @@ skills:
     level: 8
   - name: NodeJS
     level: 8
-  - name: Presentations
+  - name: Tech Presentations
+    level: 8
+  - name: GitHub
     level: 8
   - name: GitLab
-    level: 8
+    level: 7
   - name: HTML/CSS/JS
-    level: 8
+    level: 7
   - name: GCP
     level: 7
   - name: AWS
     level: 6
   - name: Typescript
-    level: 5
+    level: 6
 
 work:
+  - name: Celonis
+    position: Senior SDE (Remote, Developer Tools)
+    startDate: 2023-09
+    endDate: 2025-04
+    summary: >-
+        Built a team to focus on developer tools, developer productivity, and developer experience.
+    highlights:
+      - Implemented K8s-based hybrid-local development solutions (telepresence, mirrord)
+      - Dramatically simplified engineering onboarding and ramp-up (months to days)
+      - Unified CI/CD processes for product organization
+      - Enabling certification for FedRAMP
+      - Heavy use of GitHub Actions (GHA) for automation
+      - Grew team from 1 to 6 members
+    tech:
+      - GitHub
+      - GitHub Actions
+      - K8s
+      - Bash
+      - Docker
+      - ArgoCD
+      - Node/TypeScript
+      - Java 8/11/17+
+      - Maven
+      - DataDog
+      - Mirrord
   - name: LivePerson
     position: Senior SDE (Developer Tools)
     startDate: 2022-02
@@ -86,7 +113,7 @@ work:
         Leveled-up the CI/CD practice while tackling COVID-related 
         scaling issues.
     highlights:
-      - Led transition to horizontal scaling for primary backend messaging product
+      - Led transition to horizontal scaling for primary backend messaging product (>1m per day)
       - Java8, large 10+ years old code base, shard-based solution with nginx routing
       - Drove a feature-flag system to reduce risk during releases
       - Led migration of messaging product from Puppet+VMs to K8s
