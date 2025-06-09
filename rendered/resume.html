@@ -60,10 +60,6 @@
     img {
       max-width: 100%;
     }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
     h1, h2, h3, h4, h5, h6 {
       margin-top: 1.4em;
     }
@@ -107,8 +103,8 @@
      overflow: visible;
     }
     hr {
+      background-color: #1a1a1a;
       border: none;
-      border-top: 1px solid #1a1a1a;
       height: 1px;
       margin: 1em 0;
     }
@@ -156,11 +152,8 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
+    ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -192,9 +185,9 @@
   }
 
   h2#skills + ul {
-    columns: 3;
-    -webkit-columns: 3;
-    -moz-columns: 3;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
   }
 
   h3 {
@@ -210,49 +203,51 @@
 
   p.tech + ul {
       columns: 3;
-      -webkit-columns: 3;
-      -moz-columns: 3;
+      -webkit-columns: 2;
+      -moz-columns: 2;
   }
 
   </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <h1 id="dustin-barnes">Dustin Barnes</h1>
 <div id="contact">
     <ul>
         <li>Email: <a href="mailto:dustin.barnes@gmail.com">dustin.barnes@gmail.com</a></li>
-        <li>Phone: Upon Request</li>
+        <li>Phone: 206-218-5120</li>
         <li>LinkedIn: <a href="https://www.linkedin.com/in/dustinbarnes/">https://www.linkedin.com/in/dustinbarnes/</a></li>
         <li>GitHub: <a href="https://github.com/dustinbarnes">https://github.com/dustinbarnes</a></li>
     </ul>
 </div>
 
-<p><em>A 20+ year Software Development veteran with deep and broad
+<p><em>A 20+ year Software Engineering veteran with deep and broad
 experience in software development, CI/CD, cloud migrations, platform
 modernizations, developer productivitiy, and championing SDLC best
 practices.</em></p>
 <h2 id="skills">Skills</h2>
 <ul>
-<li>Java 8+ (10)</li>
-<li>CI/CD (10)</li>
-<li>Kanban (10)</li>
-<li>Test Automation (10)</li>
-<li>Agile/Scrum (9)</li>
-<li>Linux (9)</li>
-<li>Kubernetes (K8s) (8)</li>
-<li>NodeJS (8)</li>
-<li>Tech Presentations (8)</li>
-<li>GitHub (8)</li>
-<li>GitLab (7)</li>
-<li>HTML/CSS/JS (7)</li>
-<li>GCP (7)</li>
-<li>AWS (6)</li>
-<li>Typescript (6)</li>
+<li>Java 8/11/17</li>
+<li>CI/CD</li>
+<li>Kanban</li>
+<li>Test Automation</li>
+<li>Agile/Scrum</li>
+<li>Linux</li>
+<li>Kubernetes (K8s)</li>
+<li>NodeJS</li>
+<li>GitHub</li>
+<li>GitLab</li>
+<li>HTML/CSS/JS</li>
+<li>GCP</li>
+<li>AWS</li>
+<li>NodeJS/TypeScript</li>
 </ul>
 <h2 id="work-history">Work History</h2>
 <h3 id="celonis">Celonis</h3>
 <p><strong>Senior SDE (Remote, Developer Tools) (2023-09 to
-2025-04)</strong></p>
+2025-05)</strong></p>
 <p><em>Built a team to focus on developer tools, developer productivity,
 and developer experience.</em></p>
 <p>Highlights:</p>
@@ -288,11 +283,11 @@ to days)</li>
 across the entire organization.</em></p>
 <p>Highlights:</p>
 <ul>
-<li>Ran multiple PoCs for unified CI/CD tooling, choosing GitLab</li>
+<li>Ran multiple PoCs for unified CI/CD tooling</li>
 <li>Wrote automation tooling to migrate repositories from GitHub to
 GitLab</li>
-<li>Migrated from TeamCity/Jenkins to GitLab CI/CD</li>
-<li>Focused on Developer Experience, and providing a developer
+<li>Migrated 500+ repos from TeamCity/Jenkins to GitLab CI/CD</li>
+<li>Focus on Developer Experience, and providing a developer
 platform</li>
 <li>Unified story for code, testing, deployment, monitoring, logging,
 metrics, security, and maintenance</li>
@@ -302,29 +297,32 @@ metrics, security, and maintenance</li>
 <ul>
 <li>GitHub</li>
 <li>GitLab</li>
-<li>K8s</li>
-<li>Bash</li>
-<li>Docker</li>
-<li>confd</li>
-<li>Node</li>
+<li>JavaScript</li>
+<li>NodeJS</li>
+<li>TypeScript</li>
 <li>Java 8/11/17</li>
-<li>Maven</li>
+<li>Bash</li>
+<li>Kubernetes (K8s)</li>
+<li>Docker/Containers</li>
 <li>GCP</li>
-<li>ELK stack</li>
+<li>ELK Stack</li>
 <li>ServiceNow</li>
+<li>Prometheus</li>
+<li>Static Analysis</li>
+<li>Security Testing</li>
+<li>JIRA, Confluence</li>
 </ul>
 <h3 id="liveperson-1">LivePerson</h3>
 <p><strong>Senior SDE (Product) (2019-04 to 2022-02)</strong></p>
-<p><em>Leveled-up the CI/CD practice while tackling COVID-related
-scaling issues.</em></p>
+<p><em>Managed transition to horizontal scaling, while advancing the
+team's CI/CD practice and deployment patterns.</em></p>
 <p>Highlights:</p>
 <ul>
 <li>Led transition to horizontal scaling for primary backend messaging
 product (&gt;1m per day)</li>
-<li>Java8, large 10+ years old code base, shard-based solution with
-nginx routing</li>
+<li>Java8, large 10+ years old code base, shard-based solution</li>
+<li>Customized Nginx with Lua for real-time traffic management</li>
 <li>Drove a feature-flag system to reduce risk during releases</li>
-<li>Led migration of messaging product from Puppet+VMs to K8s</li>
 <li>Drove many efforts to adopt SDLC and CI/CD best practices</li>
 </ul>
 <p class="tech">Tech Used:</p>
@@ -333,15 +331,20 @@ nginx routing</li>
 <li>Java 8/11/17</li>
 <li>Maven</li>
 <li>Puppet</li>
-<li>Virtual Machines</li>
+<li>Virtual Machines (VMs)</li>
 <li>K8s</li>
 <li>TeamCity</li>
 <li>Jenkins</li>
-<li>Node</li>
+<li>JavaScript</li>
+<li>NodeJS</li>
 <li>CI/CD</li>
 <li>ELK stack</li>
 <li>ServiceNow</li>
 <li>Spring</li>
+<li>Prometheus</li>
+<li>SonarQube</li>
+<li>Artifactory</li>
+<li>JIRA, Confluence</li>
 </ul>
 <h3 id="dev9">Dev9</h3>
 <p><strong>Solutions Architect (2013-11 to 2019-04)</strong></p>
@@ -353,6 +356,7 @@ area</em></p>
 <li>AWS Associate Solutions Architect (now expired)</li>
 <li>Public presentations at SeaJUG and other small tech meet-ups</li>
 <li>Developed a Continuous Delivery Maturity Model as client rubric</li>
+<li>Multiple platform modernization efforts</li>
 <li>Lift-and-shift from datacenter to cloud</li>
 <li>Present to, and collaborate with, C-level and VP-level decision
 makers</li>
@@ -365,12 +369,15 @@ makers</li>
 <li>GCP</li>
 <li>AWS</li>
 <li>Graphs-as-code</li>
-<li>Java 8</li>
-<li>Node</li>
+<li>Java 8+</li>
+<li>NodeJS</li>
 <li>K8s</li>
 <li>CI/CD</li>
 <li>Spring</li>
 <li>Spring Boot</li>
+<li>Jenkins</li>
+<li>Atlassian Bamboo</li>
+<li>JIRA, Confluence</li>
 </ul>
 <h3 id="dev9-1">Dev9</h3>
 <p><strong>Lead Developer (2012-11 to 2013-11)</strong></p>
@@ -411,63 +418,8 @@ world</li>
 <li>Cassandra</li>
 <li>TeamCity</li>
 </ul>
-<h3 id="optify">Optify</h3>
-<p><strong>Senior SDE (2011-03 to 2012-06)</strong></p>
-<p><em>Large-scale marketing automation startup</em></p>
-<p>Highlights:</p>
-<ul>
-<li>Sharded PostgreSQL database with a custom JPA driver</li>
-<li>Integrated Recurly for subscription payments with simplified PCI
-compliance</li>
-<li>Deployed ElasticSearch to offload RDBMS load</li>
-<li>Championed CI/CD best practices such as build servers and binary
-repositories</li>
-</ul>
-<p class="tech">Tech Used:</p>
-
-<ul>
-<li>Java 8</li>
-<li>PostgreSQL</li>
-<li>Jenkins</li>
-<li>AWS</li>
-</ul>
-<h3 id="all-star-directories">All Star Directories</h3>
-<p><strong>Developer III (2006-07 to 2011-03)</strong></p>
-<p><em>Managed platform transition from PHP to Java, introducing CI
-before it was cool</em></p>
-<p>Highlights:</p>
-<ul>
-<li>Platform transition from PHP to Java</li>
-<li>Interviewed, managed, and mentored other developers</li>
-</ul>
-<p class="tech">Tech Used:</p>
-
-<ul>
-<li>PHP</li>
-<li>Java</li>
-<li>Groovy/Grails</li>
-<li>Maven</li>
-<li>Hibernate</li>
-<li>Hudson (Jenkins)</li>
-</ul>
-<h3 id="all-star-directories-1">All Star Directories</h3>
-<p><strong>Developer (2002-06 to 2006-07)</strong></p>
-<p><em>PHP and LAMP-stack development</em></p>
-<p>Highlights:</p>
-<ul>
-<li>Moved from single-file spaghetti code to MVC framework</li>
-<li>Grew with company from 5 to 150+ individuals</li>
-</ul>
-<p class="tech">Tech Used:</p>
-
-<ul>
-<li>Linux</li>
-<li>Apache</li>
-<li>MySQL</li>
-<li>PHP</li>
-</ul>
 <h2 id="education">Education</h2>
-<p><strong>University of Washington (2000-2003)</strong></p>
+<p><strong>University of Washington</strong></p>
 <p>BS in Computer Engineering, Cum Laude</p>
 </body>
 </html>

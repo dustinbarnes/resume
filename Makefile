@@ -10,4 +10,4 @@ rendered/resume.html: rendered/resume.md resume-css.html
 	pandoc -s -f gfm -H./resume-css.html rendered/resume.md > rendered/resume.html
 
 rendered/resume.pdf: rendered/resume.html
-	touch rendered/resume.pdf
+	
