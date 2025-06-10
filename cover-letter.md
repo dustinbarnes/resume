@@ -1,3 +1,9 @@
+---
+fontsize: 12pt # Make it slightly bigger
+pagestyle: empty # Don't show page numbers
+geometry: margin=1in # Default margins are huge
+mainfont: Helvetica Neue
+---
 # Dustin Barnes
 
 *dustin.barnes@gmail.com*  
