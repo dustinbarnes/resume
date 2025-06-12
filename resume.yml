@@ -1,12 +1,15 @@
 contact:
   name: Dustin Barnes
-  email: Upon Request
-  phone: Upon Request
+  email: dustin.barnes@gmail.com
+  phone: 206-218-5120
   headline: Experienced Software Engineering Expert
   summary: >-
       A 20+ year Software Engineering veteran with deep and broad experience
-      in software development, CI/CD, cloud migrations, platform modernizations,
-      developer productivitiy, and championing SDLC best practices.
+      in Java development, DevOps, developer experience, CI/CD, and developer
+      productivitiy. I am unique in my ability to be comfortable at the 
+      higher conceptual levels, while staying deeply technical and hands-on.
+      I'm not afraid to jump into live profiling, wire shark traces, or
+      study the code of dependencies to find the root cause of issues.
   location:
     countryCode: US
     state: WA
@@ -20,6 +23,7 @@ contact:
       url: https://github.com/dustinbarnes
 skills:
   - name: Java 8/11/17
+  - name: NodeJS/TypeScript
   - name: CI/CD
   - name: Kanban
   - name: Test Automation
@@ -32,7 +36,6 @@ skills:
   - name: HTML/CSS/JS
   - name: GCP
   - name: AWS
-  - name: NodeJS/TypeScript
 
 work:
   - name: Celonis
@@ -42,12 +45,11 @@ work:
     summary: >-
         Built a team to focus on developer tools, developer productivity, and developer experience.
     highlights:
-      - Implemented K8s-based hybrid-local development solutions (telepresence, mirrord)
-      - Dramatically simplified engineering onboarding and ramp-up (months to days)
+      - Implemented K8s-based hybrid-local development solution (mirrord), saving thousands of dev-hours
+      - Developed a KPI monitoring system (Java, Postgres) to track customer-specified performance indicators
+      - Wrote CLI tooling suite (TypeScript/ProtoBuf) to manage build and release workflows with unit test ability
       - Unified CI/CD processes for product organization
-      - Enabling certification for FedRAMP
       - Heavy use of GitHub Actions (GHA) for automation
-      - Grew team from 1 to 6 members
     tech:
       - GitHub
       - GitHub Actions
@@ -68,11 +70,11 @@ work:
         Original member of team tasked to level-up the CI/CD practice across
         the entire organization.
     highlights:
-      - Ran multiple PoCs for unified CI/CD tooling
+      - Ran multiple PoCs for unified CI/CD tooling (Python, NodeJS, Java projets)
       - Wrote automation tooling to migrate repositories from GitHub to GitLab
-      - Migrated 500+ repos from TeamCity/Jenkins to GitLab CI/CD
-      - Focus on Developer Experience, and providing a developer platform
+      - Wrote build-file migrations for 500+ repos from TeamCity/Jenkins to GitLab CI/CD
       - Unified story for code, testing, deployment, monitoring, logging, metrics, security, and maintenance
+      - Wrote new shared Java libraries for org to support the new platform
     tech:
       - GitHub
       - GitLab
@@ -96,20 +98,21 @@ work:
     endDate: 2022-02
     summary: >-
         Managed transition to horizontal scaling, while advancing the team's CI/CD 
-        practice and deployment patterns.
+        practice and deployment patterns. Product is a large-scale business-to-
+        consumer messaging platform with well over 50 million messages per day.
     highlights:
-      - Led transition to horizontal scaling for primary backend messaging product (>1m per day)
-      - Java8, large 10+ years old code base, shard-based solution
-      - Customized Nginx with Lua for real-time traffic management
-      - Drove a feature-flag system to reduce risk during releases
-      - Drove many efforts to adopt SDLC and CI/CD best practices
+      - Transformed Kafka usage from single consumer group to multiple, allowing customer partitioning
+      - Led transition from vertical-scaled solution to horizontal-scaled solution
+      - Wrote Lua code with Nginx for real-time customer request routing
+      - Wrote code to migrate customers between shards with zero downtime
+      - Championed and integrated feature-flag system (Unleash) to reduce risk during releases
+      - Coded/contributed new additions to the Unleash OSS project to support our use cases
+      - Drove many efforts to adopt SDLC and CI/CD best practices, dramatically simplifying on-call rotations
     tech:
       - Java 8/11/17
       - Maven
       - Puppet
-      - Virtual Machines (VMs)
       - K8s
-      - TeamCity
       - Jenkins
       - JavaScript
       - NodeJS
@@ -127,15 +130,12 @@ work:
     endDate: 2019-04
     summary: Consulted at many large software firms in the Seattle area
     highlights:
-      - GCP Certified Solutions Architect (now expired)
-      - AWS Associate Solutions Architect (now expired)
-      - Public presentations at SeaJUG and other small tech meet-ups
+      - Strong technical expert in coding strike team for urgent, complicated technical issues
+      - Several migrations of Java8 to Java11+, Spring MVC to Spring Boot, and monoliths to microservices
+      - Rewriting apps to support K8s-native architecture (core logic, configuration and secrets, etc)
       - Developed a Continuous Delivery Maturity Model as client rubric
-      - Multiple platform modernization efforts
-      - Lift-and-shift from datacenter to cloud
       - Present to, and collaborate with, C-level and VP-level decision makers
-      - Interview, mentor, and train new leads and solutions architects
-      - Used in strike team for urgent, complicated technical issues
+      - Interview, mentor, and train new tech leads and solutions architects
     tech:
       - GCP
       - AWS
@@ -156,8 +156,9 @@ work:
     summary: Consulting at a school-based social networking company
     highlights:
       - Designed and implemented a realtime Change Data Capture (CDC) system
+      - Custom triggers in Python to manage CDC system
       - Ran PoC for Neo4j (Graph Database), to reduce RDBMS load
-      - Wrote native Neo4j plugins agasint 750m nodes, 3b edges
+      - Wrote native (Java) Neo4j plugins agasint 750m+ nodes, 3b+ edges
       - Extensive Garbage Collection (GC) optimization, JVM optimization
     tech:
       - Neo4j
@@ -167,34 +168,35 @@ work:
     position: Senior SDE
     startDate: 2012-06
     endDate: 2012-11
-    summary: Consulting at a video game company in Redmond, WA
+    summary: Consulting at a video game company in Redmond, WA. Worked on system to manage user accounts and system updates.
     highlights:
-      - IC to account services and sign-on services
-      - Drove plan to stress/load-test service prior to launch
+      - Wrote Java 8 to manage accounts and updates
+      - Wrote Gatling (Scala) code to stress/load-test service prior to launch
+      - Identified and remediated several blocking performance issues (shared locks, memory contention)
       - Successfully simulated 1 million simultaneous users around the world
-      - Deep performance analysis and tuning
+      - Deep JVM performance analysis and tuning
       - Launched on-time, under-budget, no issues on Christmas Day
     tech:
       - Java 8
       - Gatling
       - Cassandra
       - TeamCity
-  # - name: Optify
-  #   position: Senior SDE
-  #   startDate: 2011-03
-  #   endDate: 2012-06
-  #   summary: Large-scale marketing automation startup
-  #   highlights:
-  #     - Sharded PostgreSQL database with a custom JPA driver
-  #     - Integrated Recurly for subscription payments with simplified PCI compliance
-  #     - Deployed ElasticSearch to offload RDBMS load
-  #     - Championed CI/CD best practices such as build servers and binary repositories
-  #   tech:
-  #     - Java 8
-  #     - PostgreSQL
-  #     - Jenkins
-  #     - ElasticSearch
-  #     - AWS
+  - name: Optify
+    position: Senior SDE
+    startDate: 2011-03
+    endDate: 2012-06
+    summary: Large-scale marketing automation startup
+    highlights:
+      - Moved from single to sharded PostgreSQL database, wrote custom JPA driver
+      - Integrated Recurly for subscription payments with simplified PCI compliance
+      - Deployed and implemented ElasticSearch to offload RDBMS load
+      - Championed CI/CD best practices such as build servers and binary repositories
+    tech:
+      - Java 8
+      - PostgreSQL
+      - Jenkins
+      - ElasticSearch
+      - AWS
   # - name: All Star Directories
   #   position: Developer III
   #   startDate: 2006-07

@@ -1,23 +1,44 @@
 # Resume
 How does a nerd approach a job search? With automation of course!
 
-## Concept
-We all know that managing your resume can be a pain. Not only the thoughtful writing that goes into your background, but also curating the look and feel so your resume is both professional and special. Then add in the fact that some companies will want a Word version, a PDF version, a text version, and your effort quickly explodes. The likelyhood of divergence or errors grows to unacceptable levels.
+# From 2025
+This resume worked well for a while, but it's time to upgrade. There's a host of issues in the current iteration: 
 
-Part of my inspiration for this project was an opportunity to take advantage of GitHub Actions. For those unfamiliar (and to grossly oversimplify), GitHub Actions functions as a hosted Continuous Integration (CI) server. 
+- Most critically, in the translation of Markdown to HTML to PDF, while the visual representation is largely accurate, I've found that many automated candidate tracking systems couldn't extract a useful resume from the PDF. Entire work items weren't present, headers appeared out of order or as part of a previous section, etc.
+- The generated PDF isn't that pretty. I know in theory it doesn't matter, since getting through the automated filters is often the hardest part. But, I'd prefer to present myself as more than "slightly more than the bare minimum." I'm a premium product, right? The packaging deserves a bit more attention.
+- The text, markdown, and HTML versions of the document, while interesting to me, were hardly ever used. I'm not sure anybody besides me ever saw them. I liked the idea of the quantity of nearly-identical documents that were automatically generated, but only the PDF version has been useful. 
+
+If you're following my [connect four demo project](https://github.com/dustinbarnes/connect-four-demo), you'll know that I am personally trending away from hand-coding every bit, to taking advantage of the vast body of design work that's been published online.
+
+## rendercv
+
+Then, I found this tool called [rendercv](https://github.com/rendercv/rendercv). Here's a brief list of the highlights (for me): 
+
+- Code against a YAML file (with schema definition in vscode!)
+- Works on the premise of YAML -> [Typst](https://github.com/typst/typst) -> PDF. My previous iteration relied on headless chrome's print-to-pdf flag, which is functional but extremely limited. 
+  - Typst is a LaTeX-like language for beautiful layouts, but is closer in syntax to Markdown.
+  - I have no particular expertise in LaTeX, so I don't feel married to that standard. 
+- Several off-the-shelf templates that look much better than my current layout
+
+
+
+# From 2023
+
+## Concept
+We all know that managing your resume can be a pain. Not only the thoughtful writing that goes into your background, but also curating the look and feel so your resume is both professional and special. Then add in the fact that some companies will want a Word version, a PDF version, a text version, and your effort quickly explodes. The likelyhood of divergence or errors grows to unacceptable levels. 
 
 Knowing this, the idea just kind of draws itself:
 
 ```mermaid
 flowchart LR
-  txt(Text Resume)-->magic(GitHub Actions)
+  txt(Text Resume)-->magic
   magic-->pdf(PDF Resume)
   magic-->doc(DOC Resume)
   magic-->html(GitHub Pages)
 ```
 
 ### Failure: Markdown
-So the idea was to start from a text representation that looks good when opened with any generic text editor, and as developers you know already the answer is Markdown. It provides a nicely-formatted option for pure text viewing, while knowing that a rendering tool can quickly convert it to HTML, as it does on GitHub itself. 
+So the idea was to start from a text representation that looks good when opened with any generic text editor, and us developers already know the answer is Markdown. It provides a nicely-formatted option for pure text viewing, while knowing that a rendering tool can quickly convert it to HTML, as it does on GitHub itself. 
 
 However, while doing the data entry, it quickly became apparent that I was developing against a schema. I am a person, I have 0..n jobs, I have a set of contact info, every job has a start and end date, etc. Markdown-first didn't feel right. 
 
